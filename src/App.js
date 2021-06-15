@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,8 +9,16 @@ import Home from './views/Home'
 import Report from './views/Report'
 import Documents from './views/Documents'
 import Map from './views/DataDisplay'
+import { getLayers } from "./api/wms";
+ 
 
 function App() {
+
+  useEffect(() => {
+    const layers = await getLayers();
+    console.log(layers)
+  }, [])
+
   return (
     <Router>
       <div>
