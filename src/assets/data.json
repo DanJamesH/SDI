@@ -33,57 +33,7 @@
                 "Spatial Reference System Identifier": "EPSG:4326",
                 "Keywords": [],
                 "Category": "Climatology Meteorology Atmosphere",
-                "Regions": "South Africa",
-                "Attributes": [
-                    {
-                        "Name": "fid"
-                    },
-                    {
-                        "Name": "the_geom"
-                    },
-                    {
-                        "Name": "DEA_REF"
-                    },
-                    {
-                        "Name": "NEAS_REF"
-                    },
-                    {
-                        "Name": "APP_RECEIV"
-                    },
-                    {
-                        "Name": "APPLICANT"
-                    },
-                    {
-                        "Name": "EAP"
-                    },
-                    {
-                        "Name": "LOCAL_MUNI"
-                    },
-                    {
-                        "Name": "DISTRICT_M"
-                    },
-                    {
-                        "Name": "PROVINCE"
-                    },
-                    {
-                        "Name": "TECHNOLOGY"
-                    },
-                    {
-                        "Name": "MEGAWATT"
-                    },
-                    {
-                        "Name": "PRJ_STATUS"
-                    },
-                    {
-                        "Name": "REGULATION"
-                    },
-                    {
-                        "Name": "EIA_PROCES"
-                    },
-                    {
-                        "Name": "PROJ_TITLE"
-                    }
-                ]
+                "Regions": "South Africa"
             }
         },
         {
@@ -94,35 +44,32 @@
             "id": "wind",
             "type": "raster",
             "metadata": {
-                "Title": "",
-                "Date": "",
-                "Abstract": "",
+                "Title": "Wind Power",
+                "Date": "April 1, 2014, noon",
+                "Abstract": "This data set was created for the WASA project and the Department of Energy, South Africa. The wind resource maps were designed specifically for inclusion in GIS-based strategic environmental assessments (SEA) for wind power in Western Cape and parts of Northern and Eastern Cape.",
                 "Owner": "",
                 "Point of Contact": "",
-                "Purpose": "",
-                "Maintenance Frequency": "",
-                "Type": "",
-                "Restrictions": "",
+                "Purpose": "This data set was created for the WASA project and the Department of Energy, South Africa. The wind resource maps were designed specifically for inclusion in GIS-based strategic environmental assessments (SEA) for wind power in Western Cape and parts of Northern and Eastern Cape.",
+                "Maintenance Frequency": "Unknown",
+                "Type": "Raster",
+                "Restrictions": "government has granted exclusive right to make, sell, use or license an invention or discovery",
                 "Restrictions Information": "",
-                "License": "",
-                "Language": "",
-                "Start": "",
-                "End": "",
-                "Supplemental Information": "",
-                "Data Quality": "",
+                "License": "Not Specified",
+                "Language": "eng",
+                "Start": "n/a",
+                "End": "n/a",
+                "Supplemental Information": "No information provided",
+                "Data Quality": "The data set is limited by the operational envelopes of the wind atlas methodology and the WAsP models. The accuracy depends on a) the accuracy of the VNWA, which has been verified against the data from 10 WASA measurement masts, b) the WAsP microscale modelling and c) the input topographical data. In complex terrain (RIX > 5%), the wind resources may be significantly over-estimated by the WAsP microscale modelling. Above and close to built-up areas like cities, towns and villages, the results are less reliable. Close to and above forested areas, the results are also less reliable and should be interpreted and used accordingly. The data set was designed specifically for planning purposes and should be used with utmost care for design, development and detailed assessments of actual wind farms; where local, on-site measurements are strongly recommended. The wind resource maps are subject to change without notice if and when more accurate and reliable data, models and procedures become available.",
                 "Extent": {
-                    "x0": "",
-                    "x1": "",
-                    "y0": "",
-                    "y1": ""
+                    "x0": "17.598750000000003",
+                    "x1": "24.401249999999997",
+                    "y0": "-34.901250000000000",
+                    "y1": "-30.398750000000000"
                 },
                 "Spatial Reference System Identifier": "EPSG:4326",
                 "Keywords": [],
-                "Category": "",
-                "Regions": "",
-                "Attributes": [
-                    
-                ]
+                "Category": "Biota",
+                "Regions": "South Africa"
             }
         },
         {
@@ -133,35 +80,32 @@
             "type": "raster",
             "id": "wave",
             "metadata": {
-                "Title": "",
-                "Date": "",
-                "Abstract": "",
+                "Title": "Wave Power",
+                "Date": "Oct. 1, 2019, midnight",
+                "Abstract": "The spatial dataset is provided as a point shapefile and indicates the average annual and seasonal wave power (kW/m of wave crest). Model outputs were produced on a 500m resolution (nested numerical grid approach) and written out at the 7m and 15m bathymetry contour lines. False Bay is the exception, with output on a 200m resolution. The numerical code, Simulating WAves in the Nearshore (SWAN) was used for the present study. Averages are based on stationary, coastal, spectral wave model computations. The simulation period is at a three-hourly resolution spanning from 1997 until 2013. Saturated, wind wave computations and swell computations were executed separately. The combined product presented here were thus the result of total wave energy addition. The wave power averages are also presented in terms of coastal wave exposure classifications. Through this classification the South African coastline can thus readily be understood in terms of total and seasonal experienced wave exposure. These range from fully sheltered to fully exposed and is based on widely accepted literature. Tidal fluctuations were not taken into account.",
                 "Owner": "",
                 "Point of Contact": "",
-                "Purpose": "",
-                "Maintenance Frequency": "",
-                "Type": "",
-                "Restrictions": "",
-                "Restrictions Information": "",
-                "License": "",
-                "Language": "",
-                "Start": "",
-                "End": "",
-                "Supplemental Information": "",
-                "Data Quality": "",
+                "Purpose": "The scope of the project was to determine the coastal wave run-ups for the entire South African coastline (Theron et al., 2014*). These data were then used as input for post-processing and thus producing the wave power atlas data for South Africa, as presented here.",
+                "Maintenance Frequency": "Not  planned",
+                "Type": "Vector",
+                "Restrictions": "government has granted exclusive right to make, sell, use or license an invention or discovery",
+                "Restrictions Information": "Use limitations: Please refer to the License Agreement. The user shall not sell or license the spatial data or digital maps. The Department of Environmental Affairs cannot give any warranty on the accuracy of the map. The Department of Environmental Affairs shall in no way be liable for results related to the use of these maps. Users of these digital maps must acknowledge the copyright for the digital map. Source: Department of Environmental Affairs. The data may not be distributed by any third party and is subject to the terms and conditions available on the DEA EGIS website: https://egis.environment.gov.za/",
+                "License": "Not Specified",
+                "Language": "eng",
+                "Start": "Jan. 1, 1997, midnight",
+                "End": "Dec. 31, 2013, midnight",
+                "Supplemental Information": "Theron, A., Rossouw, M., Rautenbach, C., Page, P., von Saint Ange, U., van Niekerk, L., & Luck-Vogel, M. (2014). DEA-CSIR Coastal Vulnerability Phase 2 Wave Report. Rautenbach, C., Rossouw, M., Page, P., & Harribhai, J. (2015). Deriving the Nearshore Wave Climate along South African coast. The 12th International Symposium for GIS and Computer Cartography for Coastal Zone Management. Cape Town, South Africa.",
+                "Data Quality": "Good, however some gaps may exist due to the unavailability of data or limitations associated with the input data",
                 "Extent": {
-                    "x0": "",
-                    "x1": "",
-                    "y0": "",
-                    "y1": ""
+                    "x0": "17.959957122802700",
+                    "x1": "19.354581832885700",
+                    "y0": "-34.632926940918000",
+                    "y1": "-33.096858978271500"
                 },
                 "Spatial Reference System Identifier": "EPSG:4326",
                 "Keywords": [],
-                "Category": "",
-                "Regions": "",
-                "Attributes": [
-                    
-                ]
+                "Category": "Environment",
+                "Regions": "South Africa"
             }
         },
         {
@@ -172,34 +116,36 @@
             "type": "raster",
             "id": "elevation",
             "metadata": {
-                "Title": "",
-                "Date": "",
-                "Abstract": "",
+                "Title": "Western Cape Elevation",
+                "Date": "May 17, 2015, 3:15 a.m",
+                "Abstract": "This data represents the 30 meters Digital Elevation Model (DEM) from Shuttle Radar Topography Mission (SRTM). This data-set was derived through mosaicking of individual SRTM tiles for a particular country and clipping the mosaicked tiles using the country boundary extent.",
                 "Owner": "",
-                "Point of Contact": "",
-                "Purpose": "",
-                "Maintenance Frequency": "",
-                "Type": "",
-                "Restrictions": "",
-                "Restrictions Information": "",
-                "License": "",
-                "Language": "",
-                "Start": "",
-                "End": "",
-                "Supplemental Information": "",
-                "Data Quality": "",
+                "Point of Contact": "n/a",
+                "Purpose": "Multiple-purpose data used in various fields such as disaster management, geology, planning, hydrology, topographical base map etc.",
+                "Maintenance Frequency": "As needed",
+                "Type": "Raster",
+                "Restrictions": "None",
+                "Restrictions Information": "The SERVIR Project, NASA, USAID and RCMRD SERVIR E&S Africa make no express or implied warranty of this data as to the merchantability or fitness for a particular purpose. Neither the US Government nor its contractors shall be liable for special, consequential or incidental damages attributed to this data.Users are permitted to copy, use, adapt, and redistribute SERVIR data without limitations. SERVIR encourages users to keep any adapted or redistributed versions of this data freely available for public use. Credits: National Aeronautics and Space Administration (NASA), National Oceanographic and Atmospheric Administration (NOAA), United States Agency for International Development (USAID), and US Geological Survey (USGS) CEOS WGCapD, NASA/USAID SERVIR Program, US Group on Earth Observations, & RCMRD SERVIR E&S Africa Team.",
+                "License": "Not Specified",
+                "Language": "eng",
+                "Start": "n/a",
+                "End": "n/a",
+                "Supplemental Information": "Users are advised to read and understand the metadata before access and use of the resources. No information provided",
+                "Data Quality": "High",
                 "Extent": {
-                    "x0": "",
-                    "x1": "",
-                    "y0": "",
-                    "y1": ""
+                    "x0": "17.598750000000003",
+                    "x1": "24.401249999999997",
+                    "y0": "-34.901250000000000",
+                    "y1": "-30.398750000000000"
                 },
                 "Spatial Reference System Identifier": "EPSG:4326",
                 "Keywords": [],
-                "Category": "",
-                "Regions": "",
+                "Category": "Elevation",
+                "Regions": "South Africa",
                 "Attributes": [
-                    
+                    {
+                        "Name": "GRAY_INDEX"
+                    }
                 ]
             }
         },
@@ -211,74 +157,32 @@
             "type": "raster",
             "id": "solar",
             "metadata": {
-                "Title": "",
-                "Date": "",
-                "Abstract": "",
+                "Title": "Direct Normal Irradiance",
+                "Date": "Jan. 1, 2014, midnight",
+                "Abstract": "The DNI map is used by developers of CSP (concentrating solar power) thermal power stations as well as CPV (concentrating photovoltaic) power stations to evaluate the available resource in an area for their technology. The highest DNI predicted in South Africa is now 3 200 kWh/m2 per annum in the Northern Cape. The accuracy-enhanced database shows DNI values higher, up to 10% in some areas, compared the previous database, positioning South Africa as an excellent candidate for CSP power stations. The updated yearly GHI is also higher at about 3%, confirming vast and unique potential for photovoltaic (PV) power.",
                 "Owner": "",
                 "Point of Contact": "",
-                "Purpose": "",
-                "Maintenance Frequency": "",
-                "Type": "",
-                "Restrictions": "",
-                "Restrictions Information": "",
-                "License": "",
-                "Language": "",
-                "Start": "",
-                "End": "",
-                "Supplemental Information": "",
-                "Data Quality": "",
+                "Purpose": "The purpose of placing the maps in the public domain is to make it possible for industry and public to assess the solar resource at any site of interest in the country. By providing accurate information the maps support cost-effective decision-making already in the preliminary stages of a solar power project development.",
+                "Maintenance Frequency": "unknown",
+                "Type": "Raster",
+                "Restrictions": "None",
+                "Restrictions Information": "None",
+                "License": "Public Domain",
+                "Language": "eng",
+                "Start": "n/a",
+                "End": "n/a",
+                "Supplemental Information": "No information provided",
+                "Data Quality": "eng",
                 "Extent": {
-                    "x0": "",
-                    "x1": "",
-                    "y0": "",
-                    "y1": ""
+                    "x0": "17.558333327100000",
+                    "x1": "24.233333300400000",
+                    "y0": "-34.883333333800000",
+                    "y1": "-30.400000018400000"
                 },
                 "Spatial Reference System Identifier": "EPSG:4326",
                 "Keywords": [],
-                "Category": "",
-                "Regions": "",
-                "Attributes": [
-                    
-                ]
-            }
-        },
-        {
-            "title": "Zoning",
-            "pathname": "/zoning",
-            "url": "http://ec2-13-245-128-151.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
-            "layer": "/SDIre:zoning",
-            "type": "vector",
-            "id": "zoning",
-            "metadata": {
-                "Title": "",
-                "Date": "",
-                "Abstract": "",
-                "Owner": "",
-                "Point of Contact": "",
-                "Purpose": "",
-                "Maintenance Frequency": "",
-                "Type": "",
-                "Restrictions": "",
-                "Restrictions Information": "",
-                "License": "",
-                "Language": "",
-                "Start": "",
-                "End": "",
-                "Supplemental Information": "",
-                "Data Quality": "",
-                "Extent": {
-                    "x0": "",
-                    "x1": "",
-                    "y0": "",
-                    "y1": ""
-                },
-                "Spatial Reference System Identifier": "EPSG:4326",
-                "Keywords": [],
-                "Category": "",
-                "Regions": "",
-                "Attributes": [
-                    
-                ]
+                "Category": "Environment",
+                "Regions": "South Africa"
             }
         },
         {
@@ -289,35 +193,32 @@
             "type": "raster",
             "id": "population",
             "metadata": {
-                "Title": "",
-                "Date": "",
-                "Abstract": "",
+                "Title": "Western Cape Population",
+                "Date": "Jan. 1, 2015",
+                "Abstract": "Population density per pixel at 100 metre resolution. WorldPop provides estimates of numbers of people residing in each 100x100m grid cell for every low and middle income country. Through ingegrating cencus, survey, satellite and GIS datasets in a flexible machine-learning framework, high resolution maps of population counts and densities for 2000-2020 are produced, along with accompanying metadata.",
                 "Owner": "",
                 "Point of Contact": "",
                 "Purpose": "",
-                "Maintenance Frequency": "",
-                "Type": "",
-                "Restrictions": "",
+                "Maintenance Frequency": "As needed",
+                "Type": "Raster",
+                "Restrictions": "None",
                 "Restrictions Information": "",
-                "License": "",
-                "Language": "",
-                "Start": "",
-                "End": "",
-                "Supplemental Information": "",
-                "Data Quality": "",
+                "License": "Not Specified",
+                "Language": "eng",
+                "Start": "n/a",
+                "End": "n/a",
+                "Supplemental Information": "MAPPING APPROACH: Land cover based, as described in: Linard, C., Gilbert, M., Snow, R.W., Noor, A.M. and Tatem, A.J., 2012, Population distribution, settlement patterns and accessibility across Africa in 2010, PLoS ONE, 7(2): e31743. PROJECTION: Geographic, WGS84 UNITS: Estimated persons per grid square",
+                "Data Quality": "Alpha version 2010 and 2015 estimates of numbers of people per grid square, with national totals adjusted to match UN population division estimates (http://esa.un.org/wpp/) and remaining unadjusted.",
                 "Extent": {
-                    "x0": "",
-                    "x1": "",
-                    "y0": "",
-                    "y1": ""
+                    "x0": "17.558931468738310",
+                    "x1": "24.228664668738310",
+                    "y0": "-34.834337188811180",
+                    "y1": "-30.401181188811183"
                 },
                 "Spatial Reference System Identifier": "EPSG:4326",
                 "Keywords": [],
-                "Category": "",
-                "Regions": "",
-                "Attributes": [
-                    
-                ]
+                "Category": "None",
+                "Regions": "South Africa"
             }
         },
         {
@@ -328,35 +229,32 @@
             "type": "vector",
             "id": "grid",
             "metadata": {
-                "Title": "",
-                "Date": "",
-                "Abstract": "",
+                "Title": "Western Cape Electricity Grid",
+                "Date": "March 1, 2017, midnight",
+                "Abstract": "Transmission network for South Africa, including some lines down to 44 and 88 kV. Does not include any planned lines. Data is from a March 2017 extract from OpenStreetMap",
                 "Owner": "",
                 "Point of Contact": "",
-                "Purpose": "",
-                "Maintenance Frequency": "",
-                "Type": "",
-                "Restrictions": "",
-                "Restrictions Information": "",
-                "License": "",
-                "Language": "",
-                "Start": "",
-                "End": "",
-                "Supplemental Information": "",
-                "Data Quality": "",
+                "Purpose": "To provide public access to information on the South African electricity grid",
+                "Maintenance Frequency": "unknown",
+                "Type": "Vector",
+                "Restrictions": "None",
+                "Restrictions Information": "n/a",
+                "License": "Open Data Commons Open Database License / OSM",
+                "Language": "eng",
+                "Start": "n/a",
+                "End": "n/a",
+                "Supplemental Information": "All data © OpenStreetMap contributors.",
+                "Data Quality": "High",
                 "Extent": {
-                    "x0": "",
-                    "x1": "",
-                    "y0": "",
-                    "y1": ""
+                    "x0": "18.025344848632800",
+                    "x1": "23.422283172607400",
+                    "y0": "-34.770553588867200",
+                    "y1": "-31.102365493774400"
                 },
                 "Spatial Reference System Identifier": "EPSG:4326",
                 "Keywords": [],
-                "Category": "",
-                "Regions": "",
-                "Attributes": [
-                    
-                ]
+                "Category": "Economy",
+                "Regions": "South Africa"
             }
         },
         {
@@ -367,75 +265,70 @@
             "type": "vector",
             "id": "substations",
             "metadata": {
-                "Title": "",
-                "Date": "",
-                "Abstract": "",
+                "Title": "Western Cape Substations",
+                "Date": "May 1, 2018, midnight",
+                "Abstract": "Data used in the Generation Connection Capacity Assessment of the 2022 Update Transmission Network",
                 "Owner": "",
                 "Point of Contact": "",
-                "Purpose": "",
-                "Maintenance Frequency": "",
-                "Type": "",
-                "Restrictions": "",
+                "Purpose": "The Generation Connection Capacity Assessment (GCCA) document was created in response to a call from government to connect renewable energy (RE) independent power producers (IPPs) to the national electricity grid as part of the implementation of the Integrated Resource Plan (IRP). The 2010 IRP allocated 17 800 MW of solar and wind generation capacity in line with the government’s commitment to reduce emissions.",
+                "Maintenance Frequency": "As needed",
+                "Type": "Vector",
+                "Restrictions": "government has granted exclusive right to make, sell, use or license an invention or discovery",
                 "Restrictions Information": "",
-                "License": "",
-                "Language": "",
-                "Start": "",
-                "End": "",
-                "Supplemental Information": "",
-                "Data Quality": "",
+                "License": "Not Specified",
+                "Language": "eng",
+                "Start": "n/a",
+                "End": "n/a",
+                "Supplemental Information": "No information provided",
+                "Data Quality": "High",
                 "Extent": {
-                    "x0": "",
-                    "x1": "",
-                    "y0": "",
-                    "y1": ""
+                    "x0": "18.234029769897500",
+                    "x1": "22.530561447143600",
+                    "y0": "-34.239570617675800",
+                    "y1": "-31.607999801635700"
                 },
                 "Spatial Reference System Identifier": "EPSG:4326",
                 "Keywords": [],
-                "Category": "",
-                "Regions": "",
-                "Attributes": [
-                    
-                ]
+                "Category": "Environment",
+                "Regions": "South Africa"
             }
         },
         {
-            "title": "Independent Power Providers",
-            "pathname": "/ipp",
+            "title": "Western Cape Roads",
+            "pathname": "/roads",
             "url": "http://ec2-13-245-128-151.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
-            "layer": "/SDIre:ipp",
+            "layer": "/SDIre:roads",
             "type": "vector",
-            "id": "ipp",
+            "id": "roads",
             "metadata": {
-                "Title": "",
-                "Date": "",
-                "Abstract": "",
+                "Title": "Western Cape Substations",
+                "Date": "June 18, 2021, 4:52 p.m",
+                "Abstract": "Road file for South Africa. Data from the 2008 AICD report.",
                 "Owner": "",
                 "Point of Contact": "",
-                "Purpose": "",
-                "Maintenance Frequency": "",
-                "Type": "",
-                "Restrictions": "",
+                "Purpose": "This study is part of the Africa Infrastructure Country Diagnostic c (AICD), a project designed to expand the world’s knowledge of physical infrastructure in Africa",
+                "Maintenance Frequency": "unknown",
+                "Type": "Vector",
+                "Restrictions": "Other restrictions",
                 "Restrictions Information": "",
-                "License": "",
-                "Language": "",
-                "Start": "",
-                "End": "",
-                "Supplemental Information": "",
-                "Data Quality": "",
+                "License": "Not Specified",
+                "Language": "eng",
+                "Start": "n/a",
+                "End": "n/a",
+                "Supplemental Information": "Geographical Coverage: South Africa Economy Coverage: IBRD Upper Middle Income Number of Economies: 1 Periodicity: Periodicity not specified Last Updated: August 2, 2017",
+                "Data Quality": "High",
                 "Extent": {
-                    "x0": "",
-                    "x1": "",
-                    "y0": "",
-                    "y1": ""
+                    "x0": "17.890542984008800",
+                    "x1": "24.135316848754900",
+                    "y0": "-34.828296661377000",
+                    "y1": "-30.561178207397500"
                 },
                 "Spatial Reference System Identifier": "EPSG:4326",
                 "Keywords": [],
-                "Category": "",
-                "Regions": "",
-                "Attributes": [
-                    
-                ]
+                "Category": "Transportation",
+                "Regions": "South Africa"
             }
         }
     ]
+
 }

@@ -52,7 +52,7 @@ const DrawerContent = ({
         <Typography variant='h6' style={{ padding: 0, marginBottom: 10 }}>
           Summary
         </Typography>
-        <Grid direction="column" container justify="center" alignItems="center">
+        <Grid direction="column" container style={{height:'17vh', overflow: 'auto',}}>
           <Typography
             gutterBottom
             variant='body2'

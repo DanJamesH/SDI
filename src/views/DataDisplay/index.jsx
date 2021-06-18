@@ -5,7 +5,6 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Toolbar from '@material-ui/core/Toolbar';
 import Map from './Map'
-import VectorDataDisplay from './VectorDataDisplay'
 import DrawerContent from './DrawerContent';
 import { useLocation } from 'react-router-dom'
 import data from '../../assets/data.json'
@@ -67,18 +66,17 @@ export default function DataDisplay() {
           loading={loading}
         />
       </Drawer>
-      <main className={classes.content}>
+      {/* <main className={classes.content}>
         <Toolbar />
         {loading ? 
           <div style={{display:'flex', height:'93vh', justifyContent:'center', alignItems:'center'}}>
             <CircularProgress />
           </div> : 
-<Map
-            dataset={dataset}
-          />
-          
+            <Map
+              dataset={dataset}
+            /> 
         }
-      </main>
+      </main> */}
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { MapContainer, TileLayer, WMSTileLayer, LayersControl, Marker, Popup, Polyline, Tooltip, Polygon, FeatureGroup } from "react-leaflet";
 import Typography from '@material-ui/core/Typography';
 import VectorDataDisplay from '../VectorDataDisplay'
-import reea from '../../../assets/reea.json'
+import reea from '../../../assets/GeoJSON/reea.json'
 
 const Map = ({
     dataset
