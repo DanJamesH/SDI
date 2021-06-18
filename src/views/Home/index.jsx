@@ -1,19 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import Typography from '@material-ui/core/Typography';
 import logo from '../../logo.svg';
 import '../../App.css';
-
-const top100Films = [
-    { title: 'The Shawshank Redemption', year: 1994 },
-    { title: 'The Godfather', year: 1972 },
-    { title: 'The Godfather: Part II', year: 1974 },
-    { title: 'The Dark Knight', year: 2008 },
-    { title: '12 Angry Men', year: 1957 },
-]
+import data from '../../assets/data.json'
+import { useHistory } from "react-router-dom";
 
 const Home = () => {
+
+  let history = useHistory();
+
+  const [value, setValue] = React.useState('');
+  const [inputValue, setInputValue] = React.useState('');
+
+  useEffect(() => {
+    if(inputValue !== ""){
+      const route = data.data.find((element) => element.title === inputValue)
+      history.push(`/${route.id}`)
+    }
+  }, [value])
+
   return (
     <div className="App">
       <header className="App-header">
@@ -22,9 +29,17 @@ const Home = () => {
         </Typography>
         <Autocomplete
             id="combo-box-demo"
-            options={top100Films}
+            value={value}
+            onChange={(event, newValue) => {
+              setValue(newValue);
+            }}
+            inputValue={inputValue}
+            onInputChange={(event, newInputValue) => {
+              setInputValue(newInputValue);
+            }}
+            options={data.data}
             getOptionLabel={(option) => option.title}
-            style={{ width: 300}}
+            style={{ width: '40vh'}}
             renderInput={(params) => <TextField {...params} label="Search data" variant="outlined" style={{color:'#ffffff'}}/>}
         />
       </header>

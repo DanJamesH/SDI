@@ -1,0 +1,392 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "OBJECTID_1" : "OBJECTID_1",
+    "OBJECTID" : "OBJECTID",
+    "ID" : "ID",
+    "IPP_Ref_No" : "IPP_Ref_No",
+    "Project_Na" : "Project_Na",
+    "Project_Co" : "Project_Co",
+    "Province" : "Province",
+    "Closest_To" : "Closest_To",
+    "RE_IPP_Prg" : "RE_IPP_Prg",
+    "Technology" : "Technology",
+    "Technolo_1" : "Technolo_1",
+    "MEC_MW_All" : "MEC_MW_All",
+    "X" : "X",
+    "Y" : "Y"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "OBJECTID_1",
+      "type" : "esriFieldTypeOID",
+      "alias" : "OBJECTID_1"
+    },
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "OBJECTID"
+    },
+    {
+      "name" : "ID",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "ID"
+    },
+    {
+      "name" : "IPP_Ref_No",
+      "type" : "esriFieldTypeString",
+      "alias" : "IPP_Ref_No",
+      "length" : 254
+    },
+    {
+      "name" : "Project_Na",
+      "type" : "esriFieldTypeString",
+      "alias" : "Project_Na",
+      "length" : 254
+    },
+    {
+      "name" : "Project_Co",
+      "type" : "esriFieldTypeString",
+      "alias" : "Project_Co",
+      "length" : 254
+    },
+    {
+      "name" : "Province",
+      "type" : "esriFieldTypeString",
+      "alias" : "Province",
+      "length" : 254
+    },
+    {
+      "name" : "Closest_To",
+      "type" : "esriFieldTypeString",
+      "alias" : "Closest_To",
+      "length" : 254
+    },
+    {
+      "name" : "RE_IPP_Prg",
+      "type" : "esriFieldTypeString",
+      "alias" : "RE_IPP_Prg",
+      "length" : 254
+    },
+    {
+      "name" : "Technology",
+      "type" : "esriFieldTypeString",
+      "alias" : "Technology",
+      "length" : 254
+    },
+    {
+      "name" : "Technolo_1",
+      "type" : "esriFieldTypeString",
+      "alias" : "Technolo_1",
+      "length" : 254
+    },
+    {
+      "name" : "MEC_MW_All",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "MEC_MW_All"
+    },
+    {
+      "name" : "X",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "X"
+    },
+    {
+      "name" : "Y",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Y"
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "OBJECTID_1" : 1,
+        "OBJECTID" : 32,
+        "ID" : 32,
+        "IPP_Ref_No" : "RE_PV_0077_001",
+        "Project_Na" : "Electra Capital (Pty) Ltd",
+        "Project_Co" : "Electra Capital (Pty) Ltd",
+        "Province" : "Western Cape",
+        "Closest_To" : "Clanwilliam",
+        "RE_IPP_Prg" : "RE IPP 3",
+        "Technology" : "Solar Photovoltaic",
+        "Technolo_1" : "PV",
+        "MEC_MW_All" : 75,
+        "X" : 18.734583000000001,
+        "Y" : -32.420971999999999
+      },
+      "geometry" : {
+        "x" : 18.734583333000046,
+        "y" : -32.420972221999932
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2,
+        "OBJECTID" : 40,
+        "ID" : 40,
+        "IPP_Ref_No" : "IPPID014",
+        "Project_Na" : "Gouda Wind Facility",
+        "Project_Co" : "Blue Falcon 140 Trading (Proprietary) Limited",
+        "Province" : "Western Cape",
+        "Closest_To" : "Gouda",
+        "RE_IPP_Prg" : "RE IPP 2",
+        "Technology" : "Onshore Wind",
+        "Technolo_1" : "OW",
+        "MEC_MW_All" : 135.19999999999999,
+        "X" : 19.027408000000001,
+        "Y" : -33.257089000000001
+      },
+      "geometry" : {
+        "x" : 19.027408333000039,
+        "y" : -33.257088888999931
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID_1" : 3,
+        "OBJECTID" : 44,
+        "ID" : 44,
+        "IPP_Ref_No" : "IPPID309",
+        "Project_Na" : "West Coast 1",
+        "Project_Co" : "Micawber 862 (Pty) Ltd",
+        "Province" : "Western Cape",
+        "Closest_To" : "Vredenburg",
+        "RE_IPP_Prg" : "RE IPP 2",
+        "Technology" : "Onshore Wind",
+        "Technolo_1" : "OW",
+        "MEC_MW_All" : 90.799999999999997,
+        "X" : 18.001525000000001,
+        "Y" : -32.834800000000001
+      },
+      "geometry" : {
+        "x" : 18.001525000000072,
+        "y" : -32.834799999999973
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID_1" : 4,
+        "OBJECTID" : 47,
+        "ID" : 47,
+        "IPP_Ref_No" : "IPPID373",
+        "Project_Na" : "Aurora",
+        "Project_Co" : "Solairedirect Solar Projects (Trading name pending name change)",
+        "Province" : "Western Cape",
+        "Closest_To" : "Aurora",
+        "RE_IPP_Prg" : "RE IPP 2",
+        "Technology" : "Solar Photovoltaic",
+        "Technolo_1" : "PV",
+        "MEC_MW_All" : 9,
+        "X" : 18.497288999999999,
+        "Y" : -32.641343999999997
+      },
+      "geometry" : {
+        "x" : 18.49728888900006,
+        "y" : -32.641344443999969
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID_1" : 5,
+        "OBJECTID" : 55,
+        "ID" : 55,
+        "IPP_Ref_No" : "IPPID375",
+        "Project_Na" : "Vredendal",
+        "Project_Co" : "Solairedirect Solar Projects (Trading name pending name change)",
+        "Province" : "Western Cape",
+        "Closest_To" : "Vredendal",
+        "RE_IPP_Prg" : "RE IPP 2",
+        "Technology" : "Solar Photovoltaic",
+        "Technolo_1" : "PV",
+        "MEC_MW_All" : 8.8000000000000007,
+        "X" : 18.505355999999999,
+        "Y" : -31.634886000000002
+      },
+      "geometry" : {
+        "x" : 18.50535555600004,
+        "y" : -31.634886110999958
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID_1" : 6,
+        "OBJECTID" : 59,
+        "ID" : 59,
+        "IPP_Ref_No" : "IPPID123",
+        "Project_Na" : "Dassiesklip Wind Energy Facility",
+        "Project_Co" : "Klipheuwel - Dassiefontein Wind Energy Facility (Proprietary) Limited",
+        "Province" : "Western Cape",
+        "Closest_To" : "Caledon",
+        "RE_IPP_Prg" : "RE IPP 1",
+        "Technology" : "Onshore Wind",
+        "Technolo_1" : "OW",
+        "MEC_MW_All" : 26.190000000000001,
+        "X" : 19.380842000000001,
+        "Y" : -34.226792000000003
+      },
+      "geometry" : {
+        "x" : 19.380841667000027,
+        "y" : -34.226791666999929
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID_1" : 7,
+        "OBJECTID" : 61,
+        "ID" : 61,
+        "IPP_Ref_No" : "IPPID202",
+        "Project_Na" : "Hopefield Wind Farm",
+        "Project_Co" : "Umoya Energy (Pty) Ltd",
+        "Province" : "Western Cape",
+        "Closest_To" : "Hopefield",
+        "RE_IPP_Prg" : "RE IPP 1",
+        "Technology" : "Onshore Wind",
+        "Technolo_1" : "OW",
+        "MEC_MW_All" : 65.400000000000006,
+        "X" : 18.400556000000002,
+        "Y" : -33.095832999999999
+      },
+      "geometry" : {
+        "x" : 18.400555556000029,
+        "y" : -33.095833332999973
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID_1" : 8,
+        "OBJECTID" : 79,
+        "ID" : 79,
+        "IPP_Ref_No" : "IPPID164",
+        "Project_Na" : "SlimSun Swartland Solar Park",
+        "Project_Co" : "SlimSun",
+        "Province" : "Western Cape",
+        "Closest_To" : "Malmesbury",
+        "RE_IPP_Prg" : "RE IPP 1",
+        "Technology" : "Solar Photovoltaic",
+        "Technolo_1" : "PV",
+        "MEC_MW_All" : 5,
+        "X" : 18.529707999999999,
+        "Y" : -33.350000000000001
+      },
+      "geometry" : {
+        "x" : 18.529708333000031,
+        "y" : -33.349999999999966
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID_1" : 9,
+        "OBJECTID" : 82,
+        "ID" : 82,
+        "IPP_Ref_No" : "IPPID037",
+        "Project_Na" : "Touwsrivier Project",
+        "Project_Co" : "CPV Power Plant No. 1",
+        "Province" : "Western Cape",
+        "Closest_To" : "Touwsrivier",
+        "RE_IPP_Prg" : "RE IPP 1",
+        "Technology" : "Solar Photovoltaic",
+        "Technolo_1" : "PV",
+        "MEC_MW_All" : 36,
+        "X" : 19.927600000000002,
+        "Y" : -33.410389000000002
+      },
+      "geometry" : {
+        "x" : 19.927600000000041,
+        "y" : -33.410388888999933
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID_1" : 10,
+        "OBJECTID" : 84,
+        "ID" : 84,
+        "IPP_Ref_No" : "Klipheuwel",
+        "Project_Na" : "Klipheuwel WEDF",
+        "Project_Co" : "Eskom Holdings SoC",
+        "Province" : "Western Cape",
+        "Closest_To" : "Durbanville",
+        "RE_IPP_Prg" : "Eskom",
+        "Technology" : "Onshore Wind",
+        "Technolo_1" : "OW",
+        "MEC_MW_All" : 3.1600000000000001,
+        "X" : 18.724,
+        "Y" : -33.695
+      },
+      "geometry" : {
+        "x" : 18.724000000000046,
+        "y" : -33.694999999999936
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID_1" : 11,
+        "OBJECTID" : 85,
+        "ID" : 85,
+        "IPP_Ref_No" : "Sere",
+        "Project_Na" : "Sere Wind Farm",
+        "Project_Co" : "Eskom Holdings SoC",
+        "Province" : "Western Cape",
+        "Closest_To" : "Vredendal",
+        "RE_IPP_Prg" : "Eskom",
+        "Technology" : "Onshore Wind",
+        "Technolo_1" : "OW",
+        "MEC_MW_All" : 100,
+        "X" : 18.099,
+        "Y" : -31.529
+      },
+      "geometry" : {
+        "x" : 18.099000000000046,
+        "y" : -31.52899999999994
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID_1" : 12,
+        "OBJECTID" : 87,
+        "ID" : 0,
+        "IPP_Ref_No" : " ",
+        "Project_Na" : "Excelsior Wind",
+        "Project_Co" : "Amstilinx (Pty) Ltd",
+        "Province" : "Western Cape",
+        "Closest_To" : "Swellendam",
+        "RE_IPP_Prg" : "RE IPP 4B",
+        "Technology" : "Onshore Wind",
+        "Technolo_1" : " ",
+        "MEC_MW_All" : 0,
+        "X" : 0,
+        "Y" : 0
+      },
+      "geometry" : {
+        "x" : 20.228850000000023,
+        "y" : -34.226416666999967
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID_1" : 13,
+        "OBJECTID" : 89,
+        "ID" : 0,
+        "IPP_Ref_No" : " ",
+        "Project_Na" : "Perdekraal East",
+        "Project_Co" : "South Africa Mainstream Renewable Power Perdekraal East Pty Ltd",
+        "Province" : "Western Cape",
+        "Closest_To" : "Touwsrivier",
+        "RE_IPP_Prg" : "RE IPP 4B",
+        "Technology" : "Onshore Wind",
+        "Technolo_1" : " ",
+        "MEC_MW_All" : 0,
+        "X" : 0,
+        "Y" : 0
+      },
+      "geometry" : {
+        "x" : 20.112377778000052,
+        "y" : -33.058441666999954
+      }
+    }
+  ]
+}

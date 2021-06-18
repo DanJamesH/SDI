@@ -1,0 +1,441 @@
+{
+    "data": [
+        {
+            "title": "South African Renewable Energy Database",
+            "pathname": "/reea",
+            "url": "http://ec2-13-245-128-151.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
+            "layer": "/SDIre:reea",
+            "id": "reea",
+            "type": "vector",
+            "metadata": {
+                "Title": "South African Renewable Energy EIA Application Database",
+                "Date": "Jan. 29, 2021",
+                "Abstract": "The South African Renewable Energy EIA Application Database contains spatial data for renewable energy applications for environmental authorisation.",
+                "Owner": "Department of Agriculture, Forestry & Fisheries",
+                "Point of Contact": "admin",
+                "Purpose": "To produce and maintain a comprehensive spatial database on renewable energy EIA applications in South Africa. The database is suitable for a wide range of planning, assessment, analysis and display purposes. This database should not be used for legal or other specific government actions. Read the Data Disclaimer for more information.",
+                "Maintenance Frequency": "As needed",
+                "Type": "Vector",
+                "Restrictions": "None",
+                "Restrictions Information": "Please refer to the License Agreement. The user shall not sell or license the digital maps or the associated spatial data. The Department of Environment, Forestry and Fisheries cannot give any warranty on the accuracy of the map. The Department of Environment, Forestry and Fisheries shall in no way be liable for results related to the use of these maps. Users of these digital maps must acknowledge the copyright for the digital map. Source: Department of Environment, Forestry and Fisheries. The quality statement refers that this dataset is still under development and that this beta release provided to stakeholders for comment.",
+                "License": "Public Domain",
+                "Language": "eng",
+                "Start": "Feb. 18, 2003",
+                "End": "Aug. 31, 2020",
+                "Supplemental Information": "This database is a product that is extracted predominantly from official EIA project documentation. The descriptions given in the relevant EIA project documentation was used to capture the geometry of the EIA applications and to update the required attributes of the relational geo-database. As far as possible the geometry of the EIA applications are captured and maintained based on the register of the surveyed property boundaries in the country, as captured by the Surveyor General’s Offices. In some instances where property boundaries were not obtainable EIA applications were mapped around a project centre point. Further verification is still required to resolve the inaccuracies of these entries. In preparation of the data release the farm portions are also dissolved and the outlines of the EIA applications are provided in the data package.",
+                "Data Quality": "Moderate –some errors will exist and not all applications will be inventoried due to the availability of official documentation. Data is generally current as of 03 November 2020.",
+                "Extent": {
+                    "x0": "16.472257614135700",
+                    "x1": "32.237907409668000",
+                    "y0": "-34.796016693115200",
+                    "y1": "-22.193435668945300"
+                },
+                "Spatial Reference System Identifier": "EPSG:4326",
+                "Keywords": [],
+                "Category": "Climatology Meteorology Atmosphere",
+                "Regions": "South Africa",
+                "Attributes": [
+                    {
+                        "Name": "fid"
+                    },
+                    {
+                        "Name": "the_geom"
+                    },
+                    {
+                        "Name": "DEA_REF"
+                    },
+                    {
+                        "Name": "NEAS_REF"
+                    },
+                    {
+                        "Name": "APP_RECEIV"
+                    },
+                    {
+                        "Name": "APPLICANT"
+                    },
+                    {
+                        "Name": "EAP"
+                    },
+                    {
+                        "Name": "LOCAL_MUNI"
+                    },
+                    {
+                        "Name": "DISTRICT_M"
+                    },
+                    {
+                        "Name": "PROVINCE"
+                    },
+                    {
+                        "Name": "TECHNOLOGY"
+                    },
+                    {
+                        "Name": "MEGAWATT"
+                    },
+                    {
+                        "Name": "PRJ_STATUS"
+                    },
+                    {
+                        "Name": "REGULATION"
+                    },
+                    {
+                        "Name": "EIA_PROCES"
+                    },
+                    {
+                        "Name": "PROJ_TITLE"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Wind power",
+            "pathname": "/wind",
+            "url": "http://ec2-13-244-118-143.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
+            "layer": "SDIre:wind",
+            "id": "wind",
+            "type": "raster",
+            "metadata": {
+                "Title": "",
+                "Date": "",
+                "Abstract": "",
+                "Owner": "",
+                "Point of Contact": "",
+                "Purpose": "",
+                "Maintenance Frequency": "",
+                "Type": "",
+                "Restrictions": "",
+                "Restrictions Information": "",
+                "License": "",
+                "Language": "",
+                "Start": "",
+                "End": "",
+                "Supplemental Information": "",
+                "Data Quality": "",
+                "Extent": {
+                    "x0": "",
+                    "x1": "",
+                    "y0": "",
+                    "y1": ""
+                },
+                "Spatial Reference System Identifier": "EPSG:4326",
+                "Keywords": [],
+                "Category": "",
+                "Regions": "",
+                "Attributes": [
+                    
+                ]
+            }
+        },
+        {
+            "title": "Wave power",
+            "pathname": "/wave",
+            "url": "http://ec2-13-245-128-151.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
+            "layer": "/SDIre:wave",
+            "type": "raster",
+            "id": "wave",
+            "metadata": {
+                "Title": "",
+                "Date": "",
+                "Abstract": "",
+                "Owner": "",
+                "Point of Contact": "",
+                "Purpose": "",
+                "Maintenance Frequency": "",
+                "Type": "",
+                "Restrictions": "",
+                "Restrictions Information": "",
+                "License": "",
+                "Language": "",
+                "Start": "",
+                "End": "",
+                "Supplemental Information": "",
+                "Data Quality": "",
+                "Extent": {
+                    "x0": "",
+                    "x1": "",
+                    "y0": "",
+                    "y1": ""
+                },
+                "Spatial Reference System Identifier": "EPSG:4326",
+                "Keywords": [],
+                "Category": "",
+                "Regions": "",
+                "Attributes": [
+                    
+                ]
+            }
+        },
+        {
+            "title": "Elevation",
+            "pathname": "/elevation",
+            "url": "http://ec2-13-245-128-151.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
+            "layer": "/SDIre:elevation",
+            "type": "raster",
+            "id": "elevation",
+            "metadata": {
+                "Title": "",
+                "Date": "",
+                "Abstract": "",
+                "Owner": "",
+                "Point of Contact": "",
+                "Purpose": "",
+                "Maintenance Frequency": "",
+                "Type": "",
+                "Restrictions": "",
+                "Restrictions Information": "",
+                "License": "",
+                "Language": "",
+                "Start": "",
+                "End": "",
+                "Supplemental Information": "",
+                "Data Quality": "",
+                "Extent": {
+                    "x0": "",
+                    "x1": "",
+                    "y0": "",
+                    "y1": ""
+                },
+                "Spatial Reference System Identifier": "EPSG:4326",
+                "Keywords": [],
+                "Category": "",
+                "Regions": "",
+                "Attributes": [
+                    
+                ]
+            }
+        },
+        {
+            "title": "Solar power",
+            "pathname": "/solar",
+            "url": "http://ec2-13-245-128-151.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
+            "layer": "/SDIre:solar",
+            "type": "raster",
+            "id": "solar",
+            "metadata": {
+                "Title": "",
+                "Date": "",
+                "Abstract": "",
+                "Owner": "",
+                "Point of Contact": "",
+                "Purpose": "",
+                "Maintenance Frequency": "",
+                "Type": "",
+                "Restrictions": "",
+                "Restrictions Information": "",
+                "License": "",
+                "Language": "",
+                "Start": "",
+                "End": "",
+                "Supplemental Information": "",
+                "Data Quality": "",
+                "Extent": {
+                    "x0": "",
+                    "x1": "",
+                    "y0": "",
+                    "y1": ""
+                },
+                "Spatial Reference System Identifier": "EPSG:4326",
+                "Keywords": [],
+                "Category": "",
+                "Regions": "",
+                "Attributes": [
+                    
+                ]
+            }
+        },
+        {
+            "title": "Zoning",
+            "pathname": "/zoning",
+            "url": "http://ec2-13-245-128-151.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
+            "layer": "/SDIre:zoning",
+            "type": "vector",
+            "id": "zoning",
+            "metadata": {
+                "Title": "",
+                "Date": "",
+                "Abstract": "",
+                "Owner": "",
+                "Point of Contact": "",
+                "Purpose": "",
+                "Maintenance Frequency": "",
+                "Type": "",
+                "Restrictions": "",
+                "Restrictions Information": "",
+                "License": "",
+                "Language": "",
+                "Start": "",
+                "End": "",
+                "Supplemental Information": "",
+                "Data Quality": "",
+                "Extent": {
+                    "x0": "",
+                    "x1": "",
+                    "y0": "",
+                    "y1": ""
+                },
+                "Spatial Reference System Identifier": "EPSG:4326",
+                "Keywords": [],
+                "Category": "",
+                "Regions": "",
+                "Attributes": [
+                    
+                ]
+            }
+        },
+        {
+            "title": "Population",
+            "pathname": "/population",
+            "url": "http://ec2-13-245-128-151.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
+            "layer": "/SDIre:population",
+            "type": "raster",
+            "id": "population",
+            "metadata": {
+                "Title": "",
+                "Date": "",
+                "Abstract": "",
+                "Owner": "",
+                "Point of Contact": "",
+                "Purpose": "",
+                "Maintenance Frequency": "",
+                "Type": "",
+                "Restrictions": "",
+                "Restrictions Information": "",
+                "License": "",
+                "Language": "",
+                "Start": "",
+                "End": "",
+                "Supplemental Information": "",
+                "Data Quality": "",
+                "Extent": {
+                    "x0": "",
+                    "x1": "",
+                    "y0": "",
+                    "y1": ""
+                },
+                "Spatial Reference System Identifier": "EPSG:4326",
+                "Keywords": [],
+                "Category": "",
+                "Regions": "",
+                "Attributes": [
+                    
+                ]
+            }
+        },
+        {
+            "title": "Electricity Grid",
+            "pathname": "/grid",
+            "url": "http://ec2-13-245-128-151.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
+            "layer": "/SDIre:grid",
+            "type": "vector",
+            "id": "grid",
+            "metadata": {
+                "Title": "",
+                "Date": "",
+                "Abstract": "",
+                "Owner": "",
+                "Point of Contact": "",
+                "Purpose": "",
+                "Maintenance Frequency": "",
+                "Type": "",
+                "Restrictions": "",
+                "Restrictions Information": "",
+                "License": "",
+                "Language": "",
+                "Start": "",
+                "End": "",
+                "Supplemental Information": "",
+                "Data Quality": "",
+                "Extent": {
+                    "x0": "",
+                    "x1": "",
+                    "y0": "",
+                    "y1": ""
+                },
+                "Spatial Reference System Identifier": "EPSG:4326",
+                "Keywords": [],
+                "Category": "",
+                "Regions": "",
+                "Attributes": [
+                    
+                ]
+            }
+        },
+        {
+            "title": "Substations",
+            "pathname": "/substations",
+            "url": "http://ec2-13-245-128-151.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
+            "layer": "/SDIre:substations",
+            "type": "vector",
+            "id": "substations",
+            "metadata": {
+                "Title": "",
+                "Date": "",
+                "Abstract": "",
+                "Owner": "",
+                "Point of Contact": "",
+                "Purpose": "",
+                "Maintenance Frequency": "",
+                "Type": "",
+                "Restrictions": "",
+                "Restrictions Information": "",
+                "License": "",
+                "Language": "",
+                "Start": "",
+                "End": "",
+                "Supplemental Information": "",
+                "Data Quality": "",
+                "Extent": {
+                    "x0": "",
+                    "x1": "",
+                    "y0": "",
+                    "y1": ""
+                },
+                "Spatial Reference System Identifier": "EPSG:4326",
+                "Keywords": [],
+                "Category": "",
+                "Regions": "",
+                "Attributes": [
+                    
+                ]
+            }
+        },
+        {
+            "title": "Independent Power Providers",
+            "pathname": "/ipp",
+            "url": "http://ec2-13-245-128-151.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
+            "layer": "/SDIre:ipp",
+            "type": "vector",
+            "id": "ipp",
+            "metadata": {
+                "Title": "",
+                "Date": "",
+                "Abstract": "",
+                "Owner": "",
+                "Point of Contact": "",
+                "Purpose": "",
+                "Maintenance Frequency": "",
+                "Type": "",
+                "Restrictions": "",
+                "Restrictions Information": "",
+                "License": "",
+                "Language": "",
+                "Start": "",
+                "End": "",
+                "Supplemental Information": "",
+                "Data Quality": "",
+                "Extent": {
+                    "x0": "",
+                    "x1": "",
+                    "y0": "",
+                    "y1": ""
+                },
+                "Spatial Reference System Identifier": "EPSG:4326",
+                "Keywords": [],
+                "Category": "",
+                "Regions": "",
+                "Attributes": [
+                    
+                ]
+            }
+        }
+    ]
+}

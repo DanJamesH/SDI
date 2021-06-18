@@ -1,0 +1,772 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "OBJECTID" : "OBJECTID",
+    "Supply_Are" : "Supply_Are",
+    "Substation" : "Substation",
+    "Substati_1" : "Substati_1",
+    "Transforme" : "Transforme",
+    "NoOfTrfrs" : "NoOfTrfrs",
+    "TrfrSizeMV" : "TrfrSizeMV",
+    "InstalledT" : "InstalledT",
+    "LightLoad" : "LightLoad",
+    "GxAtLightL" : "GxAtLightL",
+    "YearOfTrfr" : "YearOfTrfr",
+    "UpgradeSta" : "UpgradeSta",
+    "NoOfTrfrs2" : "NoOfTrfrs2",
+    "TrfrSize_1" : "TrfrSize_1",
+    "Installe_1" : "Installe_1",
+    "REIPPPGenA" : "REIPPPGenA",
+    "MVLimitLL2" : "MVLimitLL2",
+    "HVLimitLL2" : "HVLimitLL2",
+    "HVAreaLimi" : "HVAreaLimi",
+    "CLNLimitLL" : "CLNLimitLL",
+    "MVLimitMDL" : "MVLimitMDL",
+    "HVLimitMDL" : "HVLimitMDL",
+    "HVAreaLi_1" : "HVAreaLi_1",
+    "CLNLimitMD" : "CLNLimitMD",
+    "Status" : "Status"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "OBJECTID"
+    },
+    {
+      "name" : "Supply_Are",
+      "type" : "esriFieldTypeString",
+      "alias" : "Supply_Are",
+      "length" : 254
+    },
+    {
+      "name" : "Substation",
+      "type" : "esriFieldTypeString",
+      "alias" : "Substation",
+      "length" : 254
+    },
+    {
+      "name" : "Substati_1",
+      "type" : "esriFieldTypeString",
+      "alias" : "Substati_1",
+      "length" : 254
+    },
+    {
+      "name" : "Transforme",
+      "type" : "esriFieldTypeString",
+      "alias" : "Transforme",
+      "length" : 254
+    },
+    {
+      "name" : "NoOfTrfrs",
+      "type" : "esriFieldTypeString",
+      "alias" : "NoOfTrfrs",
+      "length" : 254
+    },
+    {
+      "name" : "TrfrSizeMV",
+      "type" : "esriFieldTypeString",
+      "alias" : "TrfrSizeMV",
+      "length" : 254
+    },
+    {
+      "name" : "InstalledT",
+      "type" : "esriFieldTypeString",
+      "alias" : "InstalledT",
+      "length" : 254
+    },
+    {
+      "name" : "LightLoad",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "LightLoad"
+    },
+    {
+      "name" : "GxAtLightL",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "GxAtLightL"
+    },
+    {
+      "name" : "YearOfTrfr",
+      "type" : "esriFieldTypeString",
+      "alias" : "YearOfTrfr",
+      "length" : 254
+    },
+    {
+      "name" : "UpgradeSta",
+      "type" : "esriFieldTypeString",
+      "alias" : "UpgradeSta",
+      "length" : 254
+    },
+    {
+      "name" : "NoOfTrfrs2",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "NoOfTrfrs2"
+    },
+    {
+      "name" : "TrfrSize_1",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "TrfrSize_1"
+    },
+    {
+      "name" : "Installe_1",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "Installe_1"
+    },
+    {
+      "name" : "REIPPPGenA",
+      "type" : "esriFieldTypeString",
+      "alias" : "REIPPPGenA",
+      "length" : 254
+    },
+    {
+      "name" : "MVLimitLL2",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "MVLimitLL2"
+    },
+    {
+      "name" : "HVLimitLL2",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "HVLimitLL2"
+    },
+    {
+      "name" : "HVAreaLimi",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "HVAreaLimi"
+    },
+    {
+      "name" : "CLNLimitLL",
+      "type" : "esriFieldTypeString",
+      "alias" : "CLNLimitLL",
+      "length" : 254
+    },
+    {
+      "name" : "MVLimitMDL",
+      "type" : "esriFieldTypeString",
+      "alias" : "MVLimitMDL",
+      "length" : 254
+    },
+    {
+      "name" : "HVLimitMDL",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "HVLimitMDL"
+    },
+    {
+      "name" : "HVAreaLi_1",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "HVAreaLi_1"
+    },
+    {
+      "name" : "CLNLimitMD",
+      "type" : "esriFieldTypeString",
+      "alias" : "CLNLimitMD",
+      "length" : 254
+    },
+    {
+      "name" : "Status",
+      "type" : "esriFieldTypeString",
+      "alias" : "Status",
+      "length" : 254
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "OBJECTID" : 1,
+        "Supply_Are" : "Outeniqua",
+        "Substation" : "Agullas",
+        "Substati_1" : "Agullas 400/132",
+        "Transforme" : "400/132",
+        "NoOfTrfrs" : "0",
+        "TrfrSizeMV" : "0",
+        "InstalledT" : "0",
+        "LightLoad" : 0,
+        "GxAtLightL" : 0,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 2,
+        "TrfrSize_1" : 500,
+        "Installe_1" : 1000,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 980,
+        "HVLimitLL2" : 1650,
+        "HVAreaLimi" : 1650,
+        "CLNLimitLL" : "4850",
+        "MVLimitMDL" : "980",
+        "HVLimitMDL" : 1650,
+        "HVAreaLi_1" : 1650,
+        "CLNLimitMD" : "2725",
+        "Status" : "Planned"
+      },
+      "geometry" : {
+        "x" : 20.319952170000022,
+        "y" : -34.134582599999931
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 2,
+        "Supply_Are" : "Outeniqua",
+        "Substation" : "Asteria",
+        "Substati_1" : "Asteria 400/132",
+        "Transforme" : "400/132",
+        "NoOfTrfrs" : "0",
+        "TrfrSizeMV" : "0",
+        "InstalledT" : "0",
+        "LightLoad" : 51,
+        "GxAtLightL" : 0,
+        "YearOfTrfr" : "2022",
+        "UpgradeSta" : "Approved",
+        "NoOfTrfrs2" : 2,
+        "TrfrSize_1" : 500,
+        "Installe_1" : 1000,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 1031,
+        "HVLimitLL2" : 1650,
+        "HVAreaLimi" : 1650,
+        "CLNLimitLL" : "4850",
+        "MVLimitMDL" : "1031",
+        "HVLimitMDL" : 1650,
+        "HVAreaLi_1" : 1650,
+        "CLNLimitMD" : "2725",
+        "Status" : "Planned"
+      },
+      "geometry" : {
+        "x" : 19.159860000000037,
+        "y" : -34.239569999999958
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 3,
+        "Supply_Are" : "Outeniqua",
+        "Substation" : "Bacchus",
+        "Substati_1" : "Bacchus 400/132",
+        "Transforme" : "400/132",
+        "NoOfTrfrs" : "2",
+        "TrfrSizeMV" : "500",
+        "InstalledT" : "1000",
+        "LightLoad" : 58,
+        "GxAtLightL" : 29.045000000000002,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 2,
+        "TrfrSize_1" : 500,
+        "Installe_1" : 1000,
+        "REIPPPGenA" : "94.09",
+        "MVLimitLL2" : 1008.955,
+        "HVLimitLL2" : 3300,
+        "HVAreaLimi" : 3300,
+        "CLNLimitLL" : "4850",
+        "MVLimitMDL" : "1008.955",
+        "HVLimitMDL" : 2400,
+        "HVAreaLi_1" : 2400,
+        "CLNLimitMD" : "2725",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 19.404230000000041,
+        "y" : -33.814669999999978
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 4,
+        "Supply_Are" : "Outeniqua",
+        "Substation" : "Droerivier",
+        "Substati_1" : "Droerivier 400/132",
+        "Transforme" : "400/132",
+        "NoOfTrfrs" : "2",
+        "TrfrSizeMV" : "120",
+        "InstalledT" : "240",
+        "LightLoad" : 19,
+        "GxAtLightL" : 50,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 2,
+        "TrfrSize_1" : 120,
+        "Installe_1" : 240,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 204.19999999999999,
+        "HVLimitLL2" : 4875,
+        "HVAreaLimi" : 4875,
+        "CLNLimitLL" : "4850",
+        "MVLimitMDL" : "204.2",
+        "HVLimitMDL" : 3125,
+        "HVAreaLi_1" : 3125,
+        "CLNLimitMD" : "2725",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 22.530560000000037,
+        "y" : -32.405579999999929
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 5,
+        "Supply_Are" : "Outeniqua",
+        "Substation" : "Kappa",
+        "Substati_1" : "Kappa 765/400",
+        "Transforme" : "765/400",
+        "NoOfTrfrs" : "1",
+        "TrfrSizeMV" : "2000",
+        "InstalledT" : "2000",
+        "LightLoad" : 0,
+        "GxAtLightL" : 0,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 1,
+        "TrfrSize_1" : 2000,
+        "Installe_1" : 2000,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 1960,
+        "HVLimitLL2" : 3700,
+        "HVAreaLimi" : 3700,
+        "CLNLimitLL" : "4850",
+        "MVLimitMDL" : "1960",
+        "HVLimitMDL" : 2625,
+        "HVAreaLi_1" : 3700,
+        "CLNLimitMD" : "2725",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 20.013610000000028,
+        "y" : -33.104999999999961
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 6,
+        "Supply_Are" : "Outeniqua",
+        "Substation" : "Proteus",
+        "Substati_1" : "Proteus 132/66",
+        "Transforme" : "132/66",
+        "NoOfTrfrs" : "2",
+        "TrfrSizeMV" : "80",
+        "InstalledT" : "160",
+        "LightLoad" : 134,
+        "GxAtLightL" : 0,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 2,
+        "TrfrSize_1" : 80,
+        "Installe_1" : 160,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 290.80000000000001,
+        "HVLimitLL2" : 160,
+        "HVAreaLimi" : 160,
+        "CLNLimitLL" : "4850",
+        "MVLimitMDL" : "290.8",
+        "HVLimitMDL" : 160,
+        "HVAreaLi_1" : 160,
+        "CLNLimitMD" : "2725",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 21.880550000000028,
+        "y" : -34.104029999999966
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 7,
+        "Supply_Are" : "Outeniqua",
+        "Substation" : "Proteus",
+        "Substati_1" : "Proteus 400/132",
+        "Transforme" : "400/132",
+        "NoOfTrfrs" : "2",
+        "TrfrSizeMV" : "500",
+        "InstalledT" : "1000",
+        "LightLoad" : 134,
+        "GxAtLightL" : 0,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 2,
+        "TrfrSize_1" : 500,
+        "Installe_1" : 1000,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 1114,
+        "HVLimitLL2" : 1200,
+        "HVAreaLimi" : 1200,
+        "CLNLimitLL" : "4850",
+        "MVLimitMDL" : "1114",
+        "HVLimitMDL" : 1750,
+        "HVAreaLi_1" : 1750,
+        "CLNLimitMD" : "2725",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 21.880550000000028,
+        "y" : -34.104029999999966
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 8,
+        "Supply_Are" : "Peninsula",
+        "Substation" : "Acacia",
+        "Substati_1" : "Acacia 132/66",
+        "Transforme" : "132/66",
+        "NoOfTrfrs" : "2",
+        "TrfrSizeMV" : "120",
+        "InstalledT" : "240",
+        "LightLoad" : 210,
+        "GxAtLightL" : 0,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 2,
+        "TrfrSize_1" : 120,
+        "Installe_1" : 240,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 445.19999999999999,
+        "HVLimitLL2" : 445.19999999999999,
+        "HVAreaLimi" : 445.19999999999999,
+        "CLNLimitLL" : "5575",
+        "MVLimitMDL" : "445.2",
+        "HVLimitMDL" : 445.19999999999999,
+        "HVAreaLi_1" : 445.19999999999999,
+        "CLNLimitMD" : "4450",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 18.53541000000007,
+        "y" : -33.883519999999976
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 9,
+        "Supply_Are" : "Peninsula",
+        "Substation" : "Acacia",
+        "Substati_1" : "Acacia 400/132",
+        "Transforme" : "400/132",
+        "NoOfTrfrs" : "3",
+        "TrfrSizeMV" : "500",
+        "InstalledT" : "1500",
+        "LightLoad" : 210,
+        "GxAtLightL" : 0,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 3,
+        "TrfrSize_1" : 500,
+        "Installe_1" : 1500,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 1680,
+        "HVLimitLL2" : 3700,
+        "HVAreaLimi" : 3700,
+        "CLNLimitLL" : "5575",
+        "MVLimitMDL" : "1680",
+        "HVLimitMDL" : 3700,
+        "HVAreaLi_1" : 3700,
+        "CLNLimitMD" : "4450",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 18.53541000000007,
+        "y" : -33.883519999999976
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 10,
+        "Supply_Are" : "Peninsula",
+        "Substation" : "Muldersvlei",
+        "Substati_1" : "Muldersvlei 132/66",
+        "Transforme" : "132/66",
+        "NoOfTrfrs" : "2",
+        "TrfrSizeMV" : "80",
+        "InstalledT" : "160",
+        "LightLoad" : 170,
+        "GxAtLightL" : 67.599999999999994,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 2,
+        "TrfrSize_1" : 80,
+        "Installe_1" : 160,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 259.19999999999999,
+        "HVLimitLL2" : 4750,
+        "HVAreaLimi" : 4750,
+        "CLNLimitLL" : "5575",
+        "MVLimitMDL" : "259.2",
+        "HVLimitMDL" : 2375,
+        "HVAreaLi_1" : 2375,
+        "CLNLimitMD" : "4450",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 18.807620000000043,
+        "y" : -33.818049999999971
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 11,
+        "Supply_Are" : "Peninsula",
+        "Substation" : "Muldersvlei",
+        "Substati_1" : "Muldersvlei 400/132",
+        "Transforme" : "400/132",
+        "NoOfTrfrs" : "3",
+        "TrfrSizeMV" : "500",
+        "InstalledT" : "1500",
+        "LightLoad" : 170,
+        "GxAtLightL" : 67.599999999999994,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 3,
+        "TrfrSize_1" : 500,
+        "Installe_1" : 1500,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 1572.4000000000001,
+        "HVLimitLL2" : 4750,
+        "HVAreaLimi" : 4750,
+        "CLNLimitLL" : "5575",
+        "MVLimitMDL" : "1572.4",
+        "HVLimitMDL" : 2375,
+        "HVAreaLi_1" : 2375,
+        "CLNLimitMD" : "4450",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 18.807620000000043,
+        "y" : -33.818049999999971
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 12,
+        "Supply_Are" : "Peninsula",
+        "Substation" : "Philippi",
+        "Substati_1" : "Philippi 400/132",
+        "Transforme" : "400/132",
+        "NoOfTrfrs" : "2",
+        "TrfrSizeMV" : "500",
+        "InstalledT" : "1000",
+        "LightLoad" : 215,
+        "GxAtLightL" : 0,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 2,
+        "TrfrSize_1" : 500,
+        "Installe_1" : 1000,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 1195,
+        "HVLimitLL2" : 1950,
+        "HVAreaLimi" : 1950,
+        "CLNLimitLL" : "5575",
+        "MVLimitMDL" : "1195",
+        "HVLimitMDL" : 1450,
+        "HVAreaLi_1" : 1450,
+        "CLNLimitMD" : "4450",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 18.537079630000051,
+        "y" : -33.987754799999948
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 13,
+        "Supply_Are" : "Peninsula",
+        "Substation" : "Pinotage",
+        "Substati_1" : "Pinotage 400/132",
+        "Transforme" : "400/132",
+        "NoOfTrfrs" : "0",
+        "TrfrSizeMV" : "0",
+        "InstalledT" : "0",
+        "LightLoad" : 108,
+        "GxAtLightL" : 0,
+        "YearOfTrfr" : "2018",
+        "UpgradeSta" : "Approved",
+        "NoOfTrfrs2" : 2,
+        "TrfrSize_1" : 500,
+        "Installe_1" : 1000,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 1088,
+        "HVLimitLL2" : 1500,
+        "HVAreaLimi" : 1500,
+        "CLNLimitLL" : "5575",
+        "MVLimitMDL" : "1088",
+        "HVLimitMDL" : 1500,
+        "HVAreaLi_1" : 1500,
+        "CLNLimitMD" : "4450",
+        "Status" : "Planned"
+      },
+      "geometry" : {
+        "x" : 18.781024580000064,
+        "y" : -34.048206879999952
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 14,
+        "Supply_Are" : "Peninsula",
+        "Substation" : "Sterrekus",
+        "Substati_1" : "Sterrekus 765/400",
+        "Transforme" : "765/400",
+        "NoOfTrfrs" : "1",
+        "TrfrSizeMV" : "2000",
+        "InstalledT" : "2000",
+        "LightLoad" : 0,
+        "GxAtLightL" : 0,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 1,
+        "TrfrSize_1" : 2000,
+        "Installe_1" : 2000,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 1960,
+        "HVLimitLL2" : 3100,
+        "HVAreaLimi" : 3100,
+        "CLNLimitLL" : "5575",
+        "MVLimitMDL" : "1960",
+        "HVLimitMDL" : 3100,
+        "HVAreaLi_1" : 3100,
+        "CLNLimitMD" : "4450",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 18.512200000000064,
+        "y" : -33.702159999999935
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 15,
+        "Supply_Are" : "Peninsula",
+        "Substation" : "Stikland",
+        "Substati_1" : "Stikland 400/132",
+        "Transforme" : "400/132",
+        "NoOfTrfrs" : "3",
+        "TrfrSizeMV" : "500",
+        "InstalledT" : "1500",
+        "LightLoad" : 210,
+        "GxAtLightL" : 0,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 3,
+        "TrfrSize_1" : 500,
+        "Installe_1" : 1500,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 1680,
+        "HVLimitLL2" : 3100,
+        "HVAreaLimi" : 3100,
+        "CLNLimitLL" : "5575",
+        "MVLimitMDL" : "1680",
+        "HVLimitMDL" : 3100,
+        "HVAreaLi_1" : 3100,
+        "CLNLimitMD" : "4450",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 18.686770000000024,
+        "y" : -33.906189999999981
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 16,
+        "Supply_Are" : "West Coast",
+        "Substation" : "Aurora",
+        "Substati_1" : "Aurora 400/132",
+        "Transforme" : "400/132",
+        "NoOfTrfrs" : "4",
+        "TrfrSizeMV" : "250",
+        "InstalledT" : "1000",
+        "LightLoad" : 0,
+        "GxAtLightL" : 80.599999999999994,
+        "YearOfTrfr" : "2021",
+        "UpgradeSta" : "Proposed",
+        "NoOfTrfrs2" : 2,
+        "TrfrSize_1" : 500,
+        "Installe_1" : 1000,
+        "REIPPPGenA" : "250.2",
+        "MVLimitLL2" : 899.39999999999998,
+        "HVLimitLL2" : 1650,
+        "HVAreaLimi" : 1650,
+        "CLNLimitLL" : "2150",
+        "MVLimitMDL" : "899.4",
+        "HVLimitMDL" : 1575,
+        "HVAreaLi_1" : 1575,
+        "CLNLimitMD" : "2875",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 18.234030000000075,
+        "y" : -33.007239999999967
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 17,
+        "Supply_Are" : "West Coast",
+        "Substation" : "Juno",
+        "Substati_1" : "Juno 132/66",
+        "Transforme" : "132/66",
+        "NoOfTrfrs" : "2",
+        "TrfrSizeMV" : "40",
+        "InstalledT" : "80",
+        "LightLoad" : 14,
+        "GxAtLightL" : 50,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 2,
+        "TrfrSize_1" : 80,
+        "Installe_1" : 160,
+        "REIPPPGenA" : "8.8",
+        "MVLimitLL2" : 120.8,
+        "HVLimitLL2" : 120.8,
+        "HVAreaLimi" : 120.8,
+        "CLNLimitLL" : "2150",
+        "MVLimitMDL" : "120.8",
+        "HVLimitMDL" : 120.8,
+        "HVAreaLi_1" : 120.8,
+        "CLNLimitMD" : "2875",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 18.444230000000061,
+        "y" : -31.607999999999947
+      }
+    },
+    {
+      "attributes" : {
+        "OBJECTID" : 18,
+        "Supply_Are" : "West Coast",
+        "Substation" : "Juno",
+        "Substati_1" : "Juno 400/132",
+        "Transforme" : "400/132",
+        "NoOfTrfrs" : "2",
+        "TrfrSizeMV" : "120",
+        "InstalledT" : "240",
+        "LightLoad" : 14,
+        "GxAtLightL" : 0,
+        "YearOfTrfr" : "-",
+        "UpgradeSta" : "-",
+        "NoOfTrfrs2" : 2,
+        "TrfrSize_1" : 500,
+        "Installe_1" : 1000,
+        "REIPPPGenA" : "-",
+        "MVLimitLL2" : 994,
+        "HVLimitLL2" : 2100,
+        "HVAreaLimi" : 3400,
+        "CLNLimitLL" : "2150",
+        "MVLimitMDL" : "994",
+        "HVLimitMDL" : 1575,
+        "HVAreaLi_1" : 1575,
+        "CLNLimitMD" : "2875",
+        "Status" : "Existing"
+      },
+      "geometry" : {
+        "x" : 18.444230000000061,
+        "y" : -31.607999999999947
+      }
+    }
+  ]
+}

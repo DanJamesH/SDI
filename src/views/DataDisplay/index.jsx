@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
+import CircularProgress from '@material-ui/core/CircularProgress';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Toolbar from '@material-ui/core/Toolbar';
 import Map from './Map'
+import VectorDataDisplay from './VectorDataDisplay'
 import DrawerContent from './DrawerContent';
+import { useLocation } from 'react-router-dom'
+import data from '../../assets/data.json'
 
 const drawerWidth = '18vw';
 
@@ -36,6 +40,17 @@ const useStyles = makeStyles((theme) => ({
 export default function DataDisplay() {
   const classes = useStyles();
 
+  const location = useLocation();
+
+  const [loading, setIsLoading] = useState(true)
+  const [dataset, setDataset] = useState(null)
+
+  useEffect(() => {
+    const requiredData = data.data.find(element => element.pathname === location.pathname)
+    setDataset(requiredData)
+    setIsLoading(false)
+  }, [])
+
   return (
     <div className={classes.root}>
       <CssBaseline />
@@ -47,11 +62,22 @@ export default function DataDisplay() {
         }}
       >
         <Toolbar />
-        <DrawerContent />
+        <DrawerContent 
+          dataset={dataset}
+          loading={loading}
+        />
       </Drawer>
       <main className={classes.content}>
         <Toolbar />
-        <Map/>
+        {loading ? 
+          <div style={{display:'flex', height:'93vh', justifyContent:'center', alignItems:'center'}}>
+            <CircularProgress />
+          </div> : 
+<Map
+            dataset={dataset}
+          />
+          
+        }
       </main>
     </div>
   );

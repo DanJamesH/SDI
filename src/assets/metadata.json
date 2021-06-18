@@ -1,0 +1,9 @@
+{
+    "data": [
+        { "title": "Solar power", "id": "solar" },
+        { "title": "Wind power", "id": "wind" },
+        { "title": "Wave power", "id": "wave" },
+        { "title": "South African Renewable Energy database", "id": "reea" },
+        { "title": "Elevation", "id": "elevation" }
+    ]
+}

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -8,17 +8,9 @@ import Nav from './views/Nav/'
 import Home from './views/Home'
 import Report from './views/Report'
 import Documents from './views/Documents'
-import Map from './views/DataDisplay'
-import { getLayers } from "./api/wms";
+import DataDisplay from './views/DataDisplay'
  
-
 function App() {
-
-  useEffect(() => {
-    const layers = await getLayers();
-    console.log(layers)
-  }, [])
-
   return (
     <Router>
       <div>
@@ -30,9 +22,11 @@ function App() {
           <Route path="/documents">
             <Documents />
           </Route>
-          <Route path="/">
-            {/* <Home /> */}
-            <Map/>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/:id">
+            <DataDisplay/>
           </Route>
         </Switch>
       </div>
