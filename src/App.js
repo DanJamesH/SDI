@@ -22,7 +22,7 @@ function App() {
           <Route path="/documents">
             <Documents />
           </Route>
-          <Route path="/" exact>
+          <Route path="/SDI" exact>
             <Home />
           </Route>
           <Route path="/:id">

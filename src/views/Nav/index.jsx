@@ -40,16 +40,16 @@ export default function Nav() {
                 <div style={{display:'flex', flexDirection:'row', flex:1, justifyContent:'flex-end', alignItems:'center'}}>
                   <EcoTwoToneIcon style={{ fontSize: '5vh', color: "#4caf50", marginRight:'1vw' }}/>
                   <Typography variant="h6">
-                      UCT Renewable Energy SDI
+                      Renewable Energy Research Hub
                   </Typography>
                 </div>
                 <div style={{display:'flex', flex:1, justifyContent:'flex-start', alignItems:'center'}}>
                     
                 </div>
-                <div style={{display:'flex', flex:1, justifyContent:'flex-start', alignItems:'center'}}>
-                    <Button color="inherit" style={{marginRight:15}} onClick={() => handleClick('/')}>Home</Button>
-                    <Button color="inherit" style={{marginRight:15}} onClick={() => handleClick('/Documents')}>Documents</Button>
-                    <Button color="inherit" style={{marginRight:15}} onClick={() => handleClick('/Report')}>Report</Button>
+                <div style={{display:'flex', flex:1, justifyContent:'center', alignItems:'center'}}>
+                    <Button color="inherit" style={{marginRight:15}} onClick={() => handleClick('/SDI')}>Home</Button>
+                    {/* <Button color="inherit" style={{marginRight:15}} onClick={() => handleClick('/Documents')}>Documents</Button>
+                    <Button color="inherit" style={{marginRight:15}} onClick={() => handleClick('/Report')}>Report</Button> */}
                 </div>
             </div>
         </Toolbar>

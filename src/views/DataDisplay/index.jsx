@@ -66,7 +66,7 @@ export default function DataDisplay() {
           loading={loading}
         />
       </Drawer>
-      {/* <main className={classes.content}>
+      <main className={classes.content}>
         <Toolbar />
         {loading ? 
           <div style={{display:'flex', height:'93vh', justifyContent:'center', alignItems:'center'}}>
@@ -76,7 +76,7 @@ export default function DataDisplay() {
               dataset={dataset}
             /> 
         }
-      </main> */}
+      </main>
     </div>
   );
 }

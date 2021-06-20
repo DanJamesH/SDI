@@ -12,9 +12,10 @@ import UpdateIcon from '@material-ui/icons/Update';
 import StorageIcon from '@material-ui/icons/Storage';
 import CategoryIcon from '@material-ui/icons/Category';
 import InfoIcon from '@material-ui/icons/Info';
-import EcoTwoToneIcon from '@material-ui/icons/EcoTwoTone';
+import Button from '@material-ui/core/Button';
 import PolicyIcon from '@material-ui/icons/Policy';
 import PublicIcon from '@material-ui/icons/Public';
+import PersonIcon from '@material-ui/icons/Person';
 
 const drawerWidth = '20vw';
 
@@ -38,13 +39,13 @@ const DrawerContent = ({
   return (
     <div> {loading ? <div style={{display:'flex', flex:1, height:'93vh', justifyContent:'center', alignItems:'center'}}><CircularProgress /></div> : <div className={classes.drawerContainer}>
       <div style={{ height: '33vh', padding: '1vw' }}>
-        <Typography variant='h5' style={{ marginTop: 10, marginBottom: 10 }}>
+        <Typography variant='h5' style={{ marginTop: '1vh', marginBottom: '1vh' }}>
           {dataset.title}
         </Typography>
-        <ListItem style={{ padding: 0, marginBottom: 10 }}>
+        <ListItem style={{ padding: 0, marginBottom: '1vh' }}>
           <ListItemAvatar>
             <Avatar>
-              <StorageIcon />
+              <PersonIcon />
             </Avatar>
           </ListItemAvatar>
           <ListItemText primary={dataset.metadata.Owner} secondary={dataset.metadata.Date} />
@@ -52,7 +53,7 @@ const DrawerContent = ({
         <Typography variant='h6' style={{ padding: 0, marginBottom: 10 }}>
           Summary
         </Typography>
-        <Grid direction="column" container style={{height:'17vh', overflow: 'auto',}}>
+        <Grid direction="column" container style={{height:'17vh', overflow: 'auto', width:'16vw'}}>
           <Typography
             gutterBottom
             variant='body2'
@@ -63,7 +64,7 @@ const DrawerContent = ({
 
       </div>
 
-      <div style={{ flex: 1 }}>
+      <div style={{ height:'43vh', overflow: 'auto', width:'17vw', marginTop:'5vh' }}>
         <List className={classes.root}>
           <ListItem>
             <ListItemAvatar>
@@ -87,7 +88,7 @@ const DrawerContent = ({
                 <UpdateIcon />
               </Avatar>
             </ListItemAvatar>
-            <ListItemText primary={dataset.metadata.End} secondary="Date updated" />
+            <ListItemText primary={dataset.metadata.End} secondary="Data updated" />
           </ListItem>
           <ListItem>
             <ListItemAvatar>
@@ -114,6 +115,11 @@ const DrawerContent = ({
             <ListItemText primary={dataset.metadata.Restrictions} secondary="Restrictions Information" />
           </ListItem>
         </List>
+      </div>
+      <div style={{display:'flex', flex:1, justifyContent:'center', marginTop:'4vh'}}>
+        <Button variant="outlined" color="primary" style={{width:'12vw'}} onClick={() => window.open("https://drive.google.com/drive/folders/1nDZ4ePaxHAuoKdmopRsOBPqItGwtJIBm?usp=sharing", "_blank")}>
+          Download data
+        </Button>
       </div>
     </div>}
   </div>

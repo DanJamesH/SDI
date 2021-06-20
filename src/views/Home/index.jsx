@@ -6,6 +6,7 @@ import logo from '../../logo.svg';
 import '../../App.css';
 import data from '../../assets/data.json'
 import { useHistory } from "react-router-dom";
+import ParticlesComponent from './Particles';
 
 const Home = () => {
 
@@ -24,6 +25,7 @@ const Home = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <ParticlesComponent/>
         <Typography variant="h4" style={{color:'#282c34', marginBottom:'3vh'}}>
             Western Cape Renewable Energy Data Portal
         </Typography>
@@ -39,8 +41,8 @@ const Home = () => {
             }}
             options={data.data}
             getOptionLabel={(option) => option.title}
-            style={{ width: '40vh'}}
-            renderInput={(params) => <TextField {...params} label="Search data" variant="outlined" style={{color:'#ffffff'}}/>}
+            style={{ width: '40vh', backgroundColor:'white'}}
+            renderInput={(params) => <TextField {...params} label="Search data" variant="outlined" style={{backgroundColor:'#ffffff'}}/>}
         />
       </header>
     </div>
