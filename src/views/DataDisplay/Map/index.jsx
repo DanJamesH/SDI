@@ -6,6 +6,7 @@ import grid from '../../../assets/GeoJSON/grid.json'
 import substations from '../../../assets/GeoJSON/substations.json'
 import roads from '../../../assets/GeoJSON/roads.json'
 import wave from '../../../assets/GeoJSON/wave.json'
+import CustomWMSLayer from './CustomLayer';
 
 const Map = ({
     dataset
@@ -64,13 +65,14 @@ const Map = ({
                     />
                 </LayersControl.BaseLayer>
                 <LayersControl.Overlay name={dataset.title} checked>
-                    {dataset.type === 'raster' ?
+                    {/* {dataset.type === 'raster' ? */}
                         <WMSTileLayer
                             url={dataset.url}
                             layers={dataset.layer}
                             format="image/png"
                             transparent="true"
-                        /> : <FeatureGroup>
+                        /> 
+                        {/* : <FeatureGroup>
                             <div>
                                 {loading ? <p>nothing</p> : layer.features.map((element) => {
                                     switch (layer.geometryType) {
@@ -120,7 +122,7 @@ const Map = ({
                                 })}
                             </div>
                         </FeatureGroup>
-                    }
+                    } */}
                 </LayersControl.Overlay>
             </LayersControl>
         </MapContainer>
