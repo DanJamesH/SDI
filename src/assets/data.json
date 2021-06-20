@@ -3,7 +3,7 @@
         {
             "title": "South African Renewable Energy Database",
             "pathname": "/reea",
-            "url": "http://13.244.152.181:8080/geoserver/SDIre/wms?",
+            "url": "http://ec2-13-244-152-181.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
             "layer": "/SDIre:reea",
             "id": "reea",
             "type": "vector",
@@ -39,7 +39,7 @@
         {
             "title": "Wind power",
             "pathname": "/wind",
-            "url": "http://13.244.152.181:8080/geoserver/SDIre/wms?",
+            "url": "http://ec2-13-244-152-181.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
             "layer": "SDIre:wind",
             "id": "wind",
             "type": "raster",
@@ -75,7 +75,7 @@
         {
             "title": "Wave power",
             "pathname": "/wave",
-            "url": "http://13.244.152.181:8080/geoserver/SDIre/wms?",
+            "url": "http://ec2-13-244-152-181.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
             "layer": "/SDIre:wave",
             "type": "vector",
             "id": "wave",
@@ -111,7 +111,7 @@
         {
             "title": "Elevation",
             "pathname": "/elevation",
-            "url": "http://13.244.152.181:8080/geoserver/SDIre/wms?",
+            "url": "http://ec2-13-244-152-181.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
             "layer": "/SDIre:elevation",
             "type": "raster",
             "id": "elevation",
@@ -152,7 +152,7 @@
         {
             "title": "Solar power",
             "pathname": "/solar",
-            "url": "http://13.244.152.181:8080/geoserver/SDIre/wms?",
+            "url": "http://ec2-13-244-152-181.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
             "layer": "/SDIre:dni",
             "type": "raster",
             "id": "solar",
@@ -188,7 +188,7 @@
         {
             "title": "Population",
             "pathname": "/population",
-            "url": "http://13.244.152.181:8080/geoserver/SDIre/wms?",
+            "url": "http://ec2-13-244-152-181.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
             "layer": "/SDIre:population",
             "type": "raster",
             "id": "population",
@@ -224,7 +224,7 @@
         {
             "title": "Electricity Grid",
             "pathname": "/grid",
-            "url": "http://13.244.152.181:8080/geoserver/SDIre/wms?",
+            "url": "http://ec2-13-244-152-181.af-south-1.compute.amazonaws.com:8080/geoserver/SDIre/wms?",
             "layer": "/SDIre:grid",
             "type": "vector",
             "id": "grid",
@@ -260,7 +260,7 @@
         {
             "title": "Substations",
             "pathname": "/substations",
-            "url": "http://13.244.152.181:8080/geoserver/SDIre/wms?",
+            "url": "http://ec2-13-244-152-181.af-south-1.compute.amazonaws.com:8080/geoserver/wms?",
             "layer": "/SDIre:substations",
             "type": "vector",
             "id": "substations",
@@ -296,7 +296,7 @@
         {
             "title": "Western Cape Roads",
             "pathname": "/roads",
-            "url": "http://13.244.152.181:8080/geoserver/SDIre/wms?",
+            "url": "http://ec2-13-244-152-181.af-south-1.compute.amazonaws.com:8080/geoserver/wms?",
             "layer": "/SDIre:roads",
             "type": "vector",
             "id": "roads",
