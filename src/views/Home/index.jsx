@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import Typography from '@material-ui/core/Typography';
-import logo from '../../logo.svg';
 import '../../App.css';
 import data from '../../assets/data.json'
 import { useHistory } from "react-router-dom";

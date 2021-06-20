@@ -22,7 +22,7 @@ function createData(name, value) {
 
 const getData = (data) => {
     let rows = []
-    data.map(element => {
+    data.map((element) => {
         rows.push(createData(element[0], element[1]))
     })
     return rows
