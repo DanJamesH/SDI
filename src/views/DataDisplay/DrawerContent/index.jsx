@@ -117,7 +117,7 @@ const DrawerContent = ({
         </List>
       </div>
       <div style={{display:'flex', flex:1, justifyContent:'center', marginTop:'4vh'}}>
-        <Button variant="outlined" color="primary" style={{width:'12vw'}} onClick={() => window.open("https://drive.google.com/drive/folders/1nDZ4ePaxHAuoKdmopRsOBPqItGwtJIBm?usp=sharing", "_blank")}>
+        <Button variant="outlined" color="primary" style={{width:'12vw'}} onClick={() => window.open("https://drive.google.com/drive/folders/1JBUs7ZU3U196K0zrO4YfEVsJhyqUNwxj?usp=sharing", "_blank")}>
           Download data
         </Button>
       </div>
