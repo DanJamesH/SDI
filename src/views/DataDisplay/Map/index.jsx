@@ -6,7 +6,6 @@ import grid from '../../../assets/GeoJSON/grid.json'
 import substations from '../../../assets/GeoJSON/substations.json'
 import roads from '../../../assets/GeoJSON/roads.json'
 import wave from '../../../assets/GeoJSON/wave.json'
-import CustomWMSLayer from './CustomLayer';
 
 const Map = ({
     dataset
